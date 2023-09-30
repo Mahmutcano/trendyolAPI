@@ -10,7 +10,7 @@
     "start:dev": "nodemon",
     "build": "npm run clean && npx tsc",
     "start": "node build/index.js",
-    "clean": "rimraf ./build",
+    "clean": "npx rimraf ./build",
     "compile": "npx tsc"
   },
   "keywords": [],
@@ -24,11 +24,11 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "rimraf": "^3.0.2",
     "axios": "^1.5.1",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "rimraf": "^3.0.2"
   }
 }
