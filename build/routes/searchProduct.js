@@ -55,4 +55,3 @@ router.get("/search/:query1/:query2?/:page", (req, res) => __awaiter(void 0, voi
     }
 }));
 exports.default = router;
-//# sourceMappingURL=searchProduct.js.map

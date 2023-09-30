@@ -59,4 +59,3 @@ router.get("/:page", (req, res) => __awaiter(void 0, void 0, void 0, function* (
     }
 }));
 exports.default = router;
-//# sourceMappingURL=mostCartAdd.js.map
