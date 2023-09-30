@@ -8,9 +8,9 @@
   },
   "scripts": {
     "start:dev": "nodemon",
-    "build": "npm run clean && npm run compile",
+    "build": "npm install && npm run clean && tsc",
     "start": "node build/index.js ",
-    "clean": "rimraf ./build",
+    "clean": "rm -rf ./build",
     "compile": "tsc"
   },
   "keywords": [],
