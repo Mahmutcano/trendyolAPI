@@ -13,3 +13,4 @@ app.use("/", hello_1.default);
 app.use("/mostAddedCart", mostCartAdd_1.default);
 app.use("/serachProduct", searchProduct_1.default);
 exports.default = app;
+//# sourceMappingURL=app.js.map
