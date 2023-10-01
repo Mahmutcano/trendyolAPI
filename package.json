@@ -8,9 +8,8 @@
   },
   "scripts": {
     "start:dev": "nodemon",
-    "build": "npm run clean && npx tsc",
-    "start": "node build/index.js",
-    "clean": "node clean.js"
+    "build": "npm install && rimraf ./build && tsc",
+    "start": "node build/index.js "
   },
   "keywords": [],
   "author": "",
